@@ -10,17 +10,35 @@
 
 <script>
 	
-	function ageCalculator(birthYear,currentYear){
+	// function ageCalculator(birthYear,currentYear){
+
+	// 	var birthYear = 1978;
+	// 	var currentYear= 2019;
+	// 	var diff = currentYear- birthYear;
+
+	// document.write ("I am either " + diff + "or 40 years old.");
+
+	// }
+
+	// ageCalculator();
+
+	document.write ("<br/>");
+
+
+	function ageCalculator2 () {
 
 		var birthYear = 1978;
-		var currentYear= 2019;
-		var diff = currentYear- birthYear;
+		var today = new Date();
+		var year = today.getFullYear();
 
-	document.write ("I am either " + diff + "or 40 years old.");
+		var diff = year - birthYear;
+
+
+	document.write ("I am either " + diff + "or 40 yeras old"); 
 
 	}
 
-	ageCalculator();
+	ageCalculator2();
 
 	
 
