@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2 Advanced | Yesterday's date</title>
+</head>
+<body>
+
+
+<script>
+	(function() {
+
+		var today = new Date();
+
+		var yesterday = new Date();
+		yesterday.setDate(yesterday.getDate()-1);
+
+
+
+		document.write(today);
+		document.write ("<br/>");
+		document.write(yesterday);
+
+	}())
+
+
+</script>
+
+</body>
+</html>
